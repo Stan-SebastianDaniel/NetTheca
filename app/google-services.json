@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670312406411",
+    "project_id": "proiect-librarie-dam",
+    "storage_bucket": "proiect-librarie-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670312406411:android:a3c6dad7e110c873a6a38e",
+        "android_client_info": {
+          "package_name": "eu.ase.proiect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670312406411-suos7spl5l8tb9prpqmpcabf2iufh732.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxn5kzX8hn5xrofbtuSyS099hLegXRPJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670312406411-suos7spl5l8tb9prpqmpcabf2iufh732.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

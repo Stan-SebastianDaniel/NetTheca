@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AudioBookPlayerFragment"
+
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+
+        android:id="@+id/player_imagine_carte"
+        android:layout_width="93dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_music_note_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timp_curent"
+            android:text="00:00:00"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+        
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/bara_player"/>
+
+        <TextView
+            android:id="@+id/durata_totala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_rewind"
+            android:src="@drawable/ic_baseline_fast_rewind_24"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_play"
+            android:src="@drawable/ic_baseline_play_circle_filled_24"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_pause"
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_pause_circle_filled_24"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_forward"
+            android:src="@drawable/ic_baseline_fast_forward_24"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/button_download"
+            android:src="@drawable/ic_baseline_cloud_download_24"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/audio_book_capitole"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>

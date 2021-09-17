@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">NetTheca</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setari</string>
+    <string name="no_content">-</string>
+
+    <string name="menu_all_books">Toate cartile</string>
+    <string name="menu_favorite_books">Favorite</string>
+    <string name="menu_books_read">Carti citite</string>
+    <string name="menu_settings">Setari</string>
+    <string name="show_option">Optiunea %1$s a fost apasata!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Frg. All books</string>
+    <string name="hello_from_fragment_favorite">Frg. Favorite</string>
+    <string name="hello_from_fragment_books_read">Frg. Books read</string>
+    <string name="frg_book_details">Frg. Book details</string>
+    <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="description">Description................</string>
+    <string name="error_message_transfer_between_fragment">Transferul s-a realizat fara succes!</string>
+    <string name="confirm_add_to_favorite">Cartea "%1$s" a fost adaugata in lista de favorite!</string>
+    <string name="confirm_remove_to_favorite">Cartea "%1$s" a fost stearsa din lista de favorite!</string>
+    <string name="book_exist">Cartea "%1$s" exista in lista de favorite!</string>
+    <string name="book_no_exist">Cartea "%1$s" nu exista in lista de favorite!</string>
+    <string name="title_all_books">Toate cartile</string>
+    <string name="title_book_details">Detalii carte</string>
+    <string name="title_favorite_book">Carti favorite</string>
+    <string name="title_book_read">Carti citite</string>
+    <string name="title_settings">Setari</string>
+    <string name="btn_f_bookDetails_add_to_favorites">Adaugare la favorite</string>
+    <string name="btn_f_bookDetails_remove_book_nfrom_favorites">Stergere carte\ndin favorite</string>
+    <string name="arata_ca_e_favorit">arata ca e favorit</string>
+    <string-array name="Sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="error_extract_authors_fromDB_Sqlite">Lista autori NEPRELUATA cu succes din DB SQLite</string>
+    <string name="save_username_and_password">Salvare date de logare</string>
+    <string name="sign_up">Inregistrare</string>
+    <string name="log_in">Logare</string>
+    <string name="Title">Title</string>
+    <string name="author">Author</string>
+    <string name="score">score</string>
+    <string name="x_pages_y_review">x pages | y review</string>
+    <string name="username">Email</string>
+    <string name="password">Parola</string>
+    <string name="logare_automata">Logare automata</string>
+    <string name="tine_minte_email_si_parola_la_logare">Tine minte email si parola la logare:</string>
+    <string name="salvare">Salvare</string>
+    <string name="succesfull_save">Salvare cu succes!</string>
+    <string name="delogare">Delogare</string>
+    <string name="autor">Autor</string>
+    <string name="nume_autor">Nume autor</string>
+    <string name="citeste_cartea">Citeste</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password_registry">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="player_asculta_carte">Asculta Carte</string>
+    <string name="lasati_o_recenzie">Lasati o recenzie</string>
+    <string name="carti">Carti</string>
+    <string name="carti_audio">Carti Audio</string>
+    <string name="comicuri">Comicuri</string>
+
+
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BookDetailsFragment">
+
+
+    <ListView
+        android:id="@+id/lv_book_details"
+        android:layout_width="0dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_f_book_details_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:lineSpacingExtra="8sp"
+        android:maxLines="99"
+        android:scrollbars="vertical"
+        android:text="@string/description"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f_book_details_Read_Book" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="501dp" />
+
+    <Button
+        android:id="@+id/btn_f_book_details_Read_Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="@string/citeste_cartea"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_book_details" />
+
+    <Button
+        android:id="@+id/btn_f_book_details_Asculta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Asculta"
+        app:layout_constraintEnd_toStartOf="@+id/btn_authorDetails"
+        app:layout_constraintStart_toEndOf="@+id/btn_descarca"
+        app:layout_constraintTop_toBottomOf="@+id/lv_book_details" />
+
+    <Button
+        android:id="@+id/btn_authorDetails"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="@string/autor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_book_details" />
+
+    <Button
+        android:id="@+id/btn_descarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Descarca"
+        app:layout_constraintStart_toEndOf="@+id/btn_f_book_details_Read_Book"
+        app:layout_constraintTop_toBottomOf="@+id/lv_book_details" />
+
+    <TextView
+        android:id="@+id/lasaReview"
+        android:layout_width="175dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/lasati_o_recenzie"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_f_book_details_description" />
+
+    <RatingBar
+        android:id="@+id/bara_recenzie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:max="5"
+        android:numStars="5"
+        android:rating="0.0"
+        android:stepSize="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lasaReview" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recenzii"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bara_recenzie" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
