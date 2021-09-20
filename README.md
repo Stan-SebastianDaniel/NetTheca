@@ -1,7 +1,7 @@
 # NetTheca
 
 Pagina de Logare in aplicatie 
-![Login](https://drive.google.com/drive/u/0/folders/1RQqWlY4W9EC6A4dpeV8ep2PGFyly0UoB)
+![Login](https://drive.google.com/file/d/1YVW5KFSk6ECgDepMAkbSx3NDsrdMkUl9/view?usp=sharing)
 
 Pagina de Inregistrare in aplicatie
 ![Register](https://drive.google.com/drive/u/0/folders/1RQqWlY4W9EC6A4dpeV8ep2PGFyly0UoB)
